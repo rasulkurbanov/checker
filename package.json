@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "start ",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/rasulkurbanov/checker/issues"
   },
-  "homepage": "https://github.com/rasulkurbanov/checker#readme"
+  "homepage": "https://github.com/rasulkurbanov/checker#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  }
 }
