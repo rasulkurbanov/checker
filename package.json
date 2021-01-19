@@ -1,0 +1,20 @@
+{
+  "name": "checker-app",
+  "version": "1.0.0",
+  "description": "App that checks and scores tasks ",
+  "main": "server.js",
+  "scripts": {
+    "test": "start ",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasulkurbanov/checker.git"
+  },
+  "author": "Rasuljon Kurbanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rasulkurbanov/checker/issues"
+  },
+  "homepage": "https://github.com/rasulkurbanov/checker#readme"
+}
